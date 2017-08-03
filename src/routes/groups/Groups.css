@@ -5,6 +5,17 @@
 @import 'react-toolbox/lib/chip/theme.css';
 @import 'react-toolbox/lib/avatar/theme.css';
 
+.root {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 0 40px;
+  max-width: var(--max-content-width);
+}
+
 .groupWrapper{
   display: flex;
   flex-wrap: wrap;

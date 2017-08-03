@@ -1,4 +1,4 @@
-#Internations
+# Internations
 
 This app is for testing purposes and it is intended to show how to work with react and redux with a professional architecture structure, the base setup is using [Rect Starter Kit][1] but with a few changes in the rendering, in the redux store management that wasn't described or implemented in the kit, it is using [Redux][2] so we have folders for the actions, reducers and the store itself.
 
@@ -27,7 +27,7 @@ Because I wanted to show the capabilities of this technologies working together 
 ### Notes
 
 * Development time 6 hours.
-* I used this Starter kit because I'm that experienced in React and wanted to show that I can work with new technologies.
+* I used this Starter kit because I'm not that experienced in React and wanted to show that I can work with new technologies.
 * Developed and Tested on Google Chrome v59, Mac OS Sierra.
 
 ### How to run it.  
