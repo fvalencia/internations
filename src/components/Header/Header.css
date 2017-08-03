@@ -1,0 +1,54 @@
+
+@import '../variables.css';
+@import 'react-toolbox/lib/input/theme.css';
+@custom-media --smaller-than-sm-tablet-viewport (max-width: 720px);
+
+.appBar{
+  background-color: var(--header-background);
+}
+
+.withIcon{
+  position: absolute;
+  right: 10px;
+}
+
+.input{
+  padding: 18px 0;
+}
+
+.label{
+  transition-property: top, font-size, color, opacity;
+}
+
+.inputElement{
+  color: white;
+  width: 80px;
+  transition-duration: 0.5s;
+  transition-property: width;
+}
+
+.inputElement:focus{
+  width: 250px;
+}
+
+.inputElement:focus ~ .label{
+  opacity: 0;
+}
+
+:root{
+  --input-text-label-color: white;
+  --input-text-highlight-color: white;
+  --input-focus-label-top: 32px;
+}
+
+@media screen and (--smaller-than-sm-tablet-viewport) {
+  .logo{
+    display: none;
+  }
+  .inputElement:focus{
+    width: 150px;
+  }
+  .withIcon{
+    right: -10px;
+  }
+}

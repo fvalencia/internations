@@ -1,0 +1,22 @@
+
+@import '../variables.css';
+
+.root{
+  text-align: center;
+  height: 80px;
+}
+
+.logo{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.footMark{
+  width: 100%;
+  background-color: rgb(29,42,65);
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+}

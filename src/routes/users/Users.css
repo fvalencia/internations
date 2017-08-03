@@ -1,0 +1,19 @@
+
+@import '../../components/variables.css';
+
+@import 'react-toolbox/lib/card/theme.css';
+@import 'react-toolbox/lib/chip/theme.css';
+
+.card{
+  width: 300px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.avatar{
+  width: 50px;
+  border-radius: 100%;
+  img{
+    width: 100%;
+  }
+}

@@ -1,0 +1,87 @@
+
+@import '../../components/variables.css';
+@import 'react-toolbox/lib/card/theme.css';
+
+.root {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 0 40px;
+  max-width: var(--max-content-width);
+}
+
+.card{
+  width: 320px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.imageWrapper{
+  overflow: hidden;
+}
+
+.imgBox{
+  max-width: 100%;
+  -webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
+  backface-visibility: hidden;
+  transition: 0.5s;
+}
+
+.titleBox{
+  font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.videoBox:hover{
+  .imgBox{
+    transform: scale(1.1);
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+}
+
+.userBox{
+  display: flex;
+  align-items: center;
+}
+
+.avatarPicture{
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+
+.userText{
+  font-size: 12px;
+  color: #aaa;
+  margin-bottom: 0px;
+  margin-left: 5px;
+}
+
+:global{
+  .example-appear {
+    opacity: 0.01;
+  }
+
+  .example-appear.example-appear-active {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+  }
+
+  .example-leave {
+    opacity: 1;
+  }
+
+  .example-leave.example-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+  }
+}

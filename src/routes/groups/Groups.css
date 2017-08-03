@@ -1,0 +1,26 @@
+
+@import '../../components/variables.css';
+
+@import 'react-toolbox/lib/card/theme.css';
+@import 'react-toolbox/lib/chip/theme.css';
+@import 'react-toolbox/lib/avatar/theme.css';
+
+.groupWrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 300px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.chip{
+  padding: 0px;
+  margin: 10px;
+  padding-right: 10px;
+  .avatar{
+    margin-right: 10px;
+  }
+}
